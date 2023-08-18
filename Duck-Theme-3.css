@@ -1,21 +1,28 @@
-@import url('https://devevil99.github.io/devevil/BetterDiscordAddons/Theme/Azurite/Azurite.theme.css');
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url("https://saltssaumure.github.io/pios-discord-theme/pios.min.css");
 
+/* See https://github.com/Saltssaumure/pios-discord-theme#customisation for customisation settings. */
 :root {
-	--azurite-bg: #040429;
-	--azurite-bg2: #121236;
-	--azurite-sec: #24CC89;
-	--azurite-links: #8bffcf;
-	--azurite-home-icon: url('https://media.discordapp.net/attachments/921391690802159636/1142055973553442967/IMG_9076.jpg?width=477&height=675');
-	--watermark-filter-invert: 0%;
-	--watermark-filter-sepia: 50%;
-	--watermark-filter-saturate: 3000%;
-	--watermark-filter-hue-rotate: 100deg;
-	--watermark-filter-brightness: 100%;
-	--watermark-filter-contrast: 70%;
-	--azurite-emoji-picker-color: 100deg;
-	--avatar-radius: 5px;
-	--server-radius: 5px;
-  --msg-bg-radius: 5px;
-	--font: 'Righteous', cursive;
+    --pios-glow-hue:        180;
+    --pios-glow-intensity:  1;
+    --pios-spacing:         1;
+    --pios-accent-hue:      0;
+    --pios-title-text:      "piOS v2.1.01p";
+
+    --crt-stripe:   block;
+    --crt-scanline: none;   /* ⛐ This effect is performance-intensive. */
+    --crt-flicker:  none;   /* ⚠ This is a fast flickering effect and may not be suitable for those with photosensitive epilepsy. */
+}
+
+.theme-dark {
+    --pios-background-color:    #000000;
+    --pios-bright-color:        #FFFFFF;
+    --pios-middle-color:        #D3D3D3;
+    --pios-dim-color:           #808080;
+}
+
+.theme-light {
+    --pios-background-color:    #FFFFFF;
+    --pios-bright-color:        #000000;
+    --pios-middle-color:        #696969;
+    --pios-dim-color:           #A9A9A9;
 }
